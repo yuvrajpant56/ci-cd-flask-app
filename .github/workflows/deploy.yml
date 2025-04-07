@@ -35,4 +35,4 @@ jobs:
         HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
       run: |
         git remote add heroku https://heroku:${HEROKU_API_KEY}@git.heroku.com/ci-cd-flask-app-yuvraj.git
-        git push heroku HEAD:master --force
+        git push heroku HEAD:main --force
